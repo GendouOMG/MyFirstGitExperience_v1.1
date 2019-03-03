@@ -1,0 +1,94 @@
+.contacts {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.contacts__hashtag {
+	margin: 0;
+	padding: 0;
+	width: $mobile-width;
+	height: 70px;
+	flex-grow: 1;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacts__social-networks {
+	margin: 0;
+	padding: 0;
+	width: $mobile-width;
+	height: 70px;
+	flex-grow: 1;
+	list-style: none;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacts__creator {
+	margin: 0;
+	padding: 0;
+	width: $mobile-width;
+	height: 70px;
+	flex-grow: 1;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (min-width: $tablet-width) {
+	.contacts__hashtag {
+		margin: 0;
+		padding: 0;
+		width: auto;
+		flex-grow: 1;
+	}
+
+	.contacts__social-networks {
+		margin: 0;
+		padding: 0;
+		width: auto;
+		flex-grow: 1;
+		list-style: none;
+	}
+
+	.contacts__creator {
+		margin: 0;
+		padding: 0;
+		width: auto;
+		flex-grow: 1;
+	}
+
+}
+
+@media (min-width: $desktop-width) {
+	.contacts__hashtag {
+		margin: 0;
+		padding: 0;
+		width: auto;
+		flex-grow: 1;
+	}
+
+	.contacts__social-networks {
+		margin: 0;
+		padding: 0;
+		width: auto;
+		flex-grow: 1;
+		list-style: none;
+	}
+
+	.contacts__creator {
+		margin: 0;
+		padding: 0;
+		width: auto;
+		flex-grow: 1;
+	}
+
+}

@@ -1,0 +1,83 @@
+.banner-thesis {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.banner-thesis__text {
+	margin: 0 20px;
+	padding: 0;
+	text-align: center;
+	height: 230px;
+}
+
+.banner-thesis__headline {
+	display: block;
+	margin: 45px 0 0 0;
+	padding: 0;
+}
+
+.banner-thesis__extension {
+	display: block;
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+
+.banner-thesis__picture {
+	width: $mobile-width;
+	height: 260px;
+}
+
+@media (min-width: $tablet-width) {
+	.banner-thesis__text {
+		margin: 0;
+		padding: 0;
+		width: 255px;
+		height: 255px;
+	}
+	.banner-thesis__headline {
+		display: block;
+		margin: 45px 45px 0 45px;
+		padding: 0;
+	}
+
+	.banner-thesis__extension {
+		display: block;
+		margin: 15px 45px 0 45px;
+		padding: 0;
+	}
+	.banner-thesis__picture {
+		width: auto;
+		height: auto;
+		flex-grow: 1;
+	}
+
+}
+
+@media (min-width: $desktop-width) {
+	.banner-thesis__text {
+		margin: 0;
+		padding: 0;
+		width: 400px;
+		height: 255px;
+	}
+	.banner-thesis__headline {
+		display: block;
+		margin: 45px 120px 0 120px;
+		padding: 0;
+	}
+
+	.banner-thesis__extension {
+		display: block;
+		margin: 15px 65px 0 65px;
+		padding: 0;
+	}
+	.banner-thesis__picture {
+		width: auto;
+		height: auto;
+		flex-grow: 1;
+	}
+}
