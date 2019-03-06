@@ -2,15 +2,18 @@
 .main-head {
 	margin: 0 auto;
 	width: $mobile-width;
-	border: 1px solid blue;
+	// border: 1px solid blue;
 }
 
 .main-head__menu {
 	display: flex;
 	flex-wrap: wrap;
-	border: 1px solid red;
+	// *** check if someone rip
+	justify-content: space-between;
+	// ***
+
 	position: relative;
-	// justify-content: space-around;
+
 }
 
 @media (min-width: $tablet-width) {
