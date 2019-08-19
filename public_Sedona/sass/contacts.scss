@@ -16,6 +16,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .contacts__social-networks {
@@ -41,12 +46,104 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	text-transform: uppercase;
 }
 
+.contacts__social-networks {
+	display: flex;
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+.contacts__icon {
+	margin:0 6px 0 0;
+	padding: 0;
+	display: flex;
+	width: 45px;
+	height: 50px;
+	background-color: #81b3d2;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.contacts__html-icon {
+	width: 27px;
+	height: 34px;
+	display: block;
+	background: url("../img/htmlacademy.png") no-repeat center;
+}
+
+// .contacts__icon-contain {
+// 	margin: 0;
+// 	padding:0;
+// 	display: block;
+// }
+
+.contacts__icon-contain {
+	background: none;
+	margin: 0;
+	padding:0;
+	display: block;
+	width: inherit;
+	height: inherit;
+}
+
+// *** Mods ***
+.contacts__icon-contain--twitter {
+	background: url("../img/icon-twitter.png") no-repeat center;
+}
+
+.contacts__icon-contain--facebook {
+	background: url("../img/icon-facebook.png") no-repeat center;
+}
+
+.contacts__icon-contain--youtube {
+	background: url("../img/icon-youtube.png") no-repeat center;
+}
+// *** End of Mods ***
+
+// *** Hover ***
+.contacts__icon:hover {
+	background-color: #669ec0;
+}
+
+.contacts__html-icon:hover {
+	background: url("../img/htmlacademy-blue.png") no-repeat center;
+}
+// *** End of Hover ***
+
+// *** Active ***
+.contacts__icon:active {
+	background-color: #5496bd;
+}
+
+.contacts__icon-contain:active {
+	opacity: 0.3;
+}
+
+.contacts__html-icon:active {
+	background: url("../img/htmlacademy.png") no-repeat center;
+	opacity: 0.3;
+}
+// *** End of Active ***
+
+
 @media (min-width: $tablet-width) {
+	.contacts {
+		margin: 0;
+		padding: 35px 0 35px 0;
+	}
+
 	.contacts__hashtag {
 		margin: 0;
 		padding: 0;
+		height: auto;
 		width: auto;
 		flex-grow: 1;
 	}
@@ -54,6 +151,7 @@
 	.contacts__social-networks {
 		margin: 0;
 		padding: 0;
+		height: auto;
 		width: auto;
 		flex-grow: 1;
 		list-style: none;
@@ -62,6 +160,7 @@
 	.contacts__creator {
 		margin: 0;
 		padding: 0;
+		height: auto;
 		width: auto;
 		flex-grow: 1;
 	}
@@ -72,6 +171,7 @@
 	.contacts__hashtag {
 		margin: 0;
 		padding: 0;
+		height: auto;
 		width: auto;
 		flex-grow: 1;
 	}
@@ -79,6 +179,7 @@
 	.contacts__social-networks {
 		margin: 0;
 		padding: 0;
+		height: auto;
 		width: auto;
 		flex-grow: 1;
 		list-style: none;
@@ -87,6 +188,7 @@
 	.contacts__creator {
 		margin: 0;
 		padding: 0;
+		height: auto;
 		width: auto;
 		flex-grow: 1;
 	}

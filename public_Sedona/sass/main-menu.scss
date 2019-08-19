@@ -6,15 +6,31 @@
 	flex-wrap: wrap;
 	flex-grow: 1;
 
-	background-color: #81b3d2;
+	// background-color: #81b3d2;
 }
 
 .main-menu__item {
+	background-color: #81b3d2;
+}
+
+.main-menu__overlay {
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	// text-decoration: none;
+	// width: inherit;
+	// height:inherit;
 	position: relative;
 	box-shadow: 0 1px 0 #678fa8, 0 2px #9ac2db;
 }
 
-.main-menu__item--last {
+.main-menu__overlay--last{
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	// text-decoration: none;
+	// width: inherit;
+	// height:inherit;
 	box-shadow: none;
 	background: url("../img/last-menu-Layer.png") no-repeat bottom;
 }
@@ -43,6 +59,7 @@
 	color: #ffffff;
 }
 
+
 .main-menu__logo {
 	width: 100px;
 	height: 85px;	
@@ -54,6 +71,33 @@
 	background: url("../img/logotyle-mobile.png") no-repeat top;
 	background-size: contain;
 }
+
+
+// *** Hover ***
+
+.main-menu__item:hover {
+	background-color: #669ec0;
+}
+
+.main-menu__link:hover {
+		
+}
+
+// *** End of Hover ***
+
+// *** Active ***
+.main-menu__item:active {
+	background: #5496bd;
+}
+
+.main-menu__link:active {
+	color: #88b6d1;
+}
+
+// .main-menu__link--current:active {
+// 	color: #d6d0cc;
+// }
+// *** End of Active ***
 
 
 @media (min-width: $tablet-width) {
@@ -69,12 +113,14 @@
 		// flex-grow: 1;
 
 	}
+
 	.main-menu__link {
 		width: auto;
 
 		// display: flex;
 		// width: $mobile-width;
-		height: 55px;
+		// height: 55px;
+		height: auto;
 		// justify-content: center;
 		// align-items: center;
 		// text-decoration: none;
@@ -105,13 +151,61 @@
 
 	.main-menu__item {
 		// position: relative;
-		box-shadow: none;
-	}
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
-	.main-menu__item--last {
+		height: 55px;
 		box-shadow: none;
 		background: none;
 	}
+
+	.main-menu__overlay {
+		// position: relative;
+		box-shadow: none;
+		background: none;
+	}
+
+	.main-menu__overlay--last {
+		box-shadow: none;
+		background: none;
+	}
+
+	.main-menu__link--current {
+		color: #766357;
+	}
+
+
+	// *** Hover ***
+
+	.main-menu__item:hover {
+		background: none;
+	}
+
+	.main-menu__link:hover {
+		color: #81b3d2;
+	}
+
+	.main-menu__link--current:hover {
+		color: #604e43;
+	}
+
+	// *** End of Hover ***
+
+	// *** Active ***
+	.main-menu__item:active {
+		background: none;
+	}
+
+	.main-menu__link:active {
+		color: #b2b2b2;
+	}
+
+	.main-menu__link--current:active {
+		color: #d6d0cc;
+	}
+
+	// *** End of Active ***
 
 }
 
@@ -132,7 +226,8 @@
 		width: auto;
 		// display: flex;
 		// width: $mobile-width;
-		height: 55px;
+		// height: 55px;
+		height: auto;
 		// justify-content: center;
 		// align-items: center;
 		// text-decoration: none;
@@ -161,11 +256,68 @@
 
 	.main-menu__item {
 		// position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		height: 55px;
 		box-shadow: none;
+		background: none;
 	}
 
 	.main-menu__item--last {
 		box-shadow: none;
 		background: none;
 	}
+	.main-menu__item {
+		box-shadow: none;
+		background: none;
+	}
+
+	.main-menu__overlay {
+		// position: relative;
+		box-shadow: none;
+		background: none;
+	}
+
+	.main-menu__overlay--last {
+		box-shadow: none;
+		background: none;
+	}
+
+	.main-menu__link--current {
+		color: #766357;
+	}
+
+	// *** Hover ***
+
+	.main-menu__item:hover {
+		background: none;
+	}
+
+	.main-menu__link:hover {
+		color: #81b3d2;
+	}
+
+	.main-menu__link--current:hover {
+		color: #604e43;
+	}
+
+	// *** End of Hover ***
+
+	// *** Active ***
+	.main-menu__item:active {
+		background: none;
+	}
+
+	.main-menu__link:active {
+		color: #b2b2b2;
+	}
+
+	.main-menu__link--current:active {
+		color: #d6d0cc;
+	}
+
+	// *** End of Active ***
+
 }
