@@ -203,21 +203,21 @@ body {
 
 .banner__slogan {
   height: 390px;
-  background: url("../img/Main-menu-banner.jpg") no-repeat; }
+  background: url("../img/main-menu-banner.jpg") no-repeat; }
 
 @media (min-width: 768px) {
   .banner__head {
     display: none; }
   .banner__slogan {
     height: 520px;
-    background: url("../img/Main-menu-banner-tablet.jpg") no-repeat; } }
+    background: url("../img/main-menu-banner-tablet.jpg") no-repeat; } }
 
 @media (min-width: 1200px) {
   .banner__head {
     display: none; }
   .banner__slogan {
     height: 520px;
-    background: url("../img/Main-menu-banner-desktop.jpg") no-repeat; } }
+    background: url("../img/main-menu-banner-desktop.jpg") no-repeat; } }
 
 .description {
   margin: 0;
