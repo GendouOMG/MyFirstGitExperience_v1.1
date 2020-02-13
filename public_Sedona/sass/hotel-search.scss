@@ -36,7 +36,7 @@
 	width: 280px;
 	height: 60px;
 	background-color: #81b3d2;
-	color: #FFFFFF;
+	color: #ffffff;
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
@@ -54,7 +54,7 @@
 
 }
 
-// *** Hover ***
+// *** hover ***
 .hotel-search__launcher:hover {
 	background-color: #669ec0;
 }
@@ -63,9 +63,9 @@
 	background-color: #e5e5e5;
 	color: #ffffff;
 }
-// *** End of Hover ***
+// *** end of hover ***
 
-// *** Active ***
+// *** active ***
 .hotel-search__launcher:active {
 	background-color: #5496bd;
 	color: #88b6d1;
@@ -75,14 +75,14 @@
 	background-color: #e5e5e5;
 	color: #ffffff;
 }
-// *** End of Active ***
+// *** end of active ***
 
-// *** Mods ***
+// *** mods ***
 .hotel-search__launcher--disabled {
 	background-color: #e5e5e5;
 	color: #ffffff;
 }
-// *** End of Mods ***
+// *** end of mods ***
 
 @media (min-width: $tablet-width) {
 	.hotel-search {

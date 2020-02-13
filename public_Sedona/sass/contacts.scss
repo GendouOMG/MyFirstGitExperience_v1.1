@@ -94,7 +94,7 @@
 	height: inherit;
 }
 
-// *** Mods ***
+// *** mods ***
 .contacts__icon-contain--twitter {
 	background: url("../img/icon-twitter.png") no-repeat center;
 }
@@ -106,9 +106,9 @@
 .contacts__icon-contain--youtube {
 	background: url("../img/icon-youtube.png") no-repeat center;
 }
-// *** End of Mods ***
+// *** end of mods ***
 
-// *** Hover ***
+// *** hover ***
 .contacts__icon:hover {
 	background-color: #669ec0;
 }
@@ -116,9 +116,9 @@
 .contacts__html-icon:hover {
 	background: url("../img/htmlacademy-blue.png") no-repeat center;
 }
-// *** End of Hover ***
+// *** end of hover ***
 
-// *** Active ***
+// *** active ***
 .contacts__icon:active {
 	background-color: #5496bd;
 }
@@ -131,7 +131,7 @@
 	background: url("../img/htmlacademy.png") no-repeat center;
 	opacity: 0.3;
 }
-// *** End of Active ***
+// *** end of active ***
 
 
 @media (min-width: $tablet-width) {

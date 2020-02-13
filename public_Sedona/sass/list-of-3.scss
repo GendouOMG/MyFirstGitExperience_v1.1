@@ -46,7 +46,7 @@
 	text-transform: uppercase;
 }
 
-//*** Mods
+//*** mods
 .list-of-3__icon--burger {
 	background: url("../img/icon-burger-mobile.png") no-repeat center;
 	background-size: contain;
@@ -61,7 +61,7 @@
 	background: url("../img/icon-house-mobile.png") no-repeat center;
 	background-size: contain;
 }
-//*** End of Mods
+//*** end of mods
 
 @media (min-width: $tablet-width) {
 	.list-of-3 {
@@ -109,7 +109,7 @@
 		width: 170px;
 	}
 
-	//*** Mods
+	//*** mods
 	.list-of-3__icon--burger {
 		background: url("../img/icon-burger.png") no-repeat center;
 		background-size: contain;
@@ -124,7 +124,7 @@
 		background: url("../img/icon-house.png") no-repeat center;
 		background-size: contain;
 	}
-	//*** End of Mods
+	//*** end of mods
 
 }
 
